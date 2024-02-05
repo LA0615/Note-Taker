@@ -1,6 +1,36 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "Get food",
+    "text": "cat food"
+  },
+  {
+    "title": "go to bank",
+    "text": "deposit money"
+  },
+  {
+    "title": "Nap time",
+    "text": "Take a nap"
+  },
+  {
+    "title": "Vacation time",
+    "text": "Plan a vacation"
+  },
+  {
+    "title": "Dentist App",
+    "text": "dental appointment at 10am"
+  },
+  {
+    "title": "TV show",
+    "text": "Watch your show at 10"
+  },
+  {
+    "title": "meetin",
+    "text": "meeting at 10 am ",
+    "id": "fde8296e-8a92-4317-a2c0-6ea4a5f4991c"
+  },
+  {
+    "title": "oil change",
+    "text": "GET oil changed",
+    "id": "c37997dc-f66d-48de-8340-9c65a559d34f"
+  }
 ]
