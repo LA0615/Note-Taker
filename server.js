@@ -9,17 +9,7 @@ const fs = require("fs");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 // Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, "public")));
-
-// Get route for HTML index
-app.get("/", (req, res) =>
-  res.sendFile(path.join(__dirname, "public", "index.html"))
-);
-
-//Get route for notes html
-app.get("/notes", (req, res) =>
-  res.sendFile(path.join(__dirname, "public", "notes.html"))
-);
+app.use(express.static("public"));
 
 // Get Route for API notes
 app.get("/api/notes", (req, res) => {
@@ -40,9 +30,13 @@ app.post("/api/notes", (req, res) => {
   });
 });
 
+//Get route for notes html
+app.get("/notes", (req, res) =>
+  res.sendFile(path.join(__dirname, "/public/notes.html"))
+);
+
 //Delete requst for api notes---extra credit portion
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
-//"./db/db.json",
