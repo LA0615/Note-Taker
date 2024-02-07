@@ -35,7 +35,6 @@ app.get("/notes", (req, res) =>
   res.sendFile(path.join(__dirname, "/public/notes.html"))
 );
 
-// DELETE a note by ID
 app.delete("/api/notes/:id", (req, res) => {
   const noteId = req.params.id;
   
@@ -52,8 +51,8 @@ app.delete("/api/notes/:id", (req, res) => {
     // Write the updated notes array back to the JSON file
     fs.writeFileSync("./db/db.json", JSON.stringify(notes));
 
-    res.json(notes);
-   } else {
+    res.json({ message: "Note deleted successfully." });
+  } else {
     res.status(404).json({ error: "Note not found." });
   }
 });
@@ -61,5 +60,3 @@ app.delete("/api/notes/:id", (req, res) => {
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
-
-
