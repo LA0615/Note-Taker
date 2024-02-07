@@ -1,66 +1,15 @@
 [
   {
-    "title": "Get food",
-    "text": "cat food"
+    "title": "Grocery Shopping",
+    "text": "Get cat food",
+    "id": "1027302b-c024-4195-b4de-a2af9de9be24"
   },
   {
-    "title": "go to bank",
-    "text": "deposit money"
+    "title": "Oil Change",
+    "text": "9am",
+    "id": "90db6947-4efa-44f1-99a1-26ecbe2ad66c"
   },
   {
-    "title": "Nap time",
-    "text": "Take a nap"
-  },
-  {
-    "title": "Vacation time",
-    "text": "Plan a vacation"
-  },
-  {
-    "title": "Dentist App",
-    "text": "dental appointment at 10am"
-  },
-  {
-    "title": "TV show",
-    "text": "Watch your show at 10"
-  },
-  {
-    "title": "meetin",
-    "text": "meeting at 10 am ",
-    "id": "fde8296e-8a92-4317-a2c0-6ea4a5f4991c"
-  },
-  {
-    "title": "oil change",
-    "text": "GET oil changed",
-    "id": "c37997dc-f66d-48de-8340-9c65a559d34f"
-  },
-  {
-    "title": "work tomorrow",
-    "text": "work from 9-4\n",
-    "id": "04b8059a-3618-45cf-83c8-2daffbf3783e"
-  },
-  {
-    "title": "Pay bills",
-    "text": "Dont forget to pay the phone bill. ",
-    "id": "1ee55922-028b-4c4e-b1c5-f757a409ca2d"
-  },
-  {
-    "title": "Gym",
-    "text": "Gym class at 9am ",
-    "id": "4f3e3588-22e3-41a6-b1a2-7dcb6c34bffd"
-  },
-  {
-    "title": "Work",
-    "text": "Work at 3pm\n",
-    "id": "750fd4bf-cfa6-45b3-8e02-c4223776605f"
-  },
-  {
-    "title": "Lunch",
-    "text": "Lunch with mom at 2pm\n",
-    "id": "e98c684c-2656-4698-875b-2147994d6d7f"
-  },
-  {
-    "title": "Lunch",
-    "text": "Lunch with friends at 12 pm",
-    "id": "65a8c6b5-5445-47f5-a317-f374c28a8e4b"
+    "id": "13b0330e-ffef-4b5c-add6-cb50ed64cb30"
   }
 ]
