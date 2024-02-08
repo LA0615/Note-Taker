@@ -10,10 +10,8 @@ N/A
 
 ## Usage
 
-Click the link to view an example of a screenshot of the application. 
-
-
-[Screenshot of application](public/assets/images/NoteTaker.png)
+Screenshot of application
+![Note taker  App](images/NoteTaker.png)
 
 
 Click the link to go to the application.
